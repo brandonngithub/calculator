@@ -6,8 +6,28 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <div id="display"></div>
+    <div id="row1">
+        <button id="zero" onclick="populate('0')">0</button>
+        <button id="one" onclick="populate('1')">1</button>
+        <button id="two" onclick="populate('2')">2</button>
+        <button id="three" onclick="populate('3')">3</button>
+        <button id="four" onclick="populate('4')">4</button>
+        <button id="five" onclick="populate('5')">5</button>
+        <button id="six" onclick="populate('6')">6</button>
+        <button id="seven" onclick="populate('7')">7</button>
+        <button id="eight" onclick="populate('8')">8</button>
+        <button id="nine" onclick="populate('9')">9</button>
+    </div>
+    <div id="row2">
+        <button id="add" onclick="populate('+')">+</button>
+        <button id="subtract" onclick="populate('-')">-</button>
+        <button id="multiply" onclick="populate('*')">*</button>
+        <button id="divide" onclick="populate('/')">/</button>
+        <button id="equals" onclick="operate()">=</button>
+        <button id="clear">clear</button>
+    </div>
 
-    
     <script src="script.js"></script>
 </body>
 </html>
