@@ -1,5 +1,13 @@
-# calculator
+## ~ calculator ~
+<p>The fifth project from TheOdinProject (Foundations Course).</p>
+<p></p>
 
-Project: Calculator <br>
-The Odin Project <br>
-Foundations Course
+## Tech Used:
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+## Links:
+- [Link to the Assignment](https://www.theodinproject.com/lessons/foundations-recipes)
+
+## Screenshots:
