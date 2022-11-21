@@ -1,6 +1,6 @@
 ## ~ calculator ~
 <p>The fifth project from TheOdinProject (Foundations Course).</p>
-<p>A calculator for calculating simple arithmetic expressions. Built using HTML, CSS, and JavaScript. All basic operations (add, subtract, multiply, divide, modulo) is supported. Operations performed follow BEDMAS precedence. Also comes with options to backspace or clear input.</p>
+<p>A calculator for calculating simple arithmetic expressions. Built using HTML, CSS, and JavaScript. All basic operations (add, subtract, multiply, divide, modulo) is supported. Operations performed follow BEDMAS precedence. Also comes with options to backspace and clear input.</p>
 
 ## Tech Used:
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
