@@ -5,6 +5,7 @@ body{
     align-items: center;
 }
 
+/* device is the div containing the calculator */
 #device{
     display: grid;
     grid-template-columns: 400px;
@@ -15,6 +16,8 @@ body{
     background-color: white;
     border: 2px solid black;
     padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
 }
 
 #fourByFour{
@@ -30,17 +33,18 @@ body{
 }
 
 button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
     border: 2px solid black;
 }
 
+/* different colors for different button classes */
 .number{
     background-color: grey;
 }
-
 .operator{
     background-color: darkorange;
 }
-
 .other{
     background-color: lightgray;
 }

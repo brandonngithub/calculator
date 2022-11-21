@@ -44,31 +44,3 @@ function operate(){
         document.getElementById('display').innerHTML = "ERROR";
     }
 }
-
-// function operate(){
-//     var numbers = getNumbers();
-//     var operators = getOperators();
-//     numbers = numbers.reverse();
-//     operators = operators.reverse();
-//     if (operators.length == numbers.length-1){
-//         var solution = numbers.pop();
-//         while (operators.length > 0){
-//             if (operators[operators.length-1] == '+'){
-//                 operators.pop();
-//                 solution += numbers.pop();
-//             } else if (operators[operators.length-1] == '-'){
-//                 operators.pop();
-//                 solution -= numbers.pop();
-//             } else if (operators[operators.length-1] == '*'){
-//                 operators.pop();
-//                 solution *= numbers.pop();
-//             } else if (operators[operators.length-1] == '/'){
-//                 operators.pop();
-//                 solution /= numbers.pop();
-//             }
-//         }
-//         document.getElementById('display').innerHTML = solution;
-//     } else {
-//         document.getElementById('display').innerHTML = "ERROR";
-//     }
-// }
