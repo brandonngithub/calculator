@@ -1,23 +1,6 @@
 ## ~ calculator ~
 <p>The fifth project from TheOdinProject (Foundations Course).</p>
-<p></p>
-
-Calculator is, well, exactly that, a calculator for calculating simple arithmetic. The aim of the project was to recreate all the basic functionality of a calculator using pure JavaScript and CSS.
-
-All basic operations are supported (divide, multiple, remainder, add, subtract).
-Operations performed using BEDMAS rule and follows order of precendence from MDN Library.
-Keyboard inputs are supported for numbers, opertaors and other options.
-Comes with options to clear/delete a single input (backspace) OR clear the whole display.
-
-Used HTML5 semantic elements for better readability and structure.
-Used CSS3 grid and flex to create layout.
-Used Git and GitHub for project management.
-Tried to maintain clean code.
-Cross tested on Firefox and Chromium based browsers.
-
-Better knowledge of Javascript.
-Learned to add keyboard support.
-A lot of minor things.
+<p>A calculator for calculating simple arithmetic expressions. Built using HTML, CSS, and JavaScript. All basic operations (add, subtract, multiply, divide, modulo) is supported. Operations performed follow BEDMAS precedence. Also comes with options to backspace or clear input.</p>
 
 ## Tech Used:
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
