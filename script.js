@@ -1,14 +1,19 @@
-var displayValue = "12+3";
+var displayValue = "";
 
 function populate(character){
     displayValue += character;
     document.getElementById('display').innerHTML = displayValue;
 }
 
+function backspace(){
+    displayValue = displayValue.substring(0, displayValue.length-1);
+    document.getElementById('display').innerHTML = displayValue;
+}
+
 function getOperators(){
     var operators = [];
     for (var i=0; i<displayValue.length; i++){
-        if (displayValue.charAt(i)=='+' || displayValue.charAt(i)=='-' || displayValue.charAt(i)=='*' || displayValue.charAt(i)=='/'){
+        if (displayValue.charAt(i)=='+' || displayValue.charAt(i)=='-' || displayValue.charAt(i)=='*' || displayValue.charAt(i)=='/' || displayValue.charAt(i)=='/'){
             operators.push(displayValue.charAt(i));
         }
     }
@@ -31,37 +36,39 @@ function getNumbers(){
 }
 
 function operate(){
-    numbers = getNumbers();
-    alert(numbers[0]);
-    alert(numbers[1]);
-
-    // var operator, num1, num2, operatorIndex, solution;
-    // for (var i=0; i<displayValue.length; i++){
-    //     if (displayValue.charAt(i) == '+'){
-    //         operatorIndex = i;
-    //     } else if (displayValue.charAt(i) == '-'){
-    //         operatorIndex = i;
-    //     } else if (displayValue.charAt(i) == '*'){
-    //         operatorIndex = i;
-    //     } else if (displayValue.charAt(i) == '/'){
-    //         operatorIndex = i;
-    //     }
-    // }
-    // operator = displayValue.charAt(operatorIndex);
-    // num1 = parseInt(displayValue.substring(0, operatorIndex));
-    // num2 = parseInt(displayValue.substring(operatorIndex+1));
-    // if (operator == '+'){
-    //     solution = num1 + num2;
-    // } else if (operator == '-'){
-    //     solution = num1 - num2;
-    // } else if (operator == '*'){
-    //     solution = num1 * num2;
-    // } else if (operator == '/'){
-    //     solution = num1 / num2;
-    // }
-    // displayValue = solution;
-    // document.getElementById("display").innerHTML = solution;
+    try{
+        var x = eval(displayValue);
+        document.getElementById('display').innerHTML = x;
+    }catch{
+        displayValue = "";
+        document.getElementById('display').innerHTML = "ERROR";
+    }
 }
 
-
-operate();
+// function operate(){
+//     var numbers = getNumbers();
+//     var operators = getOperators();
+//     numbers = numbers.reverse();
+//     operators = operators.reverse();
+//     if (operators.length == numbers.length-1){
+//         var solution = numbers.pop();
+//         while (operators.length > 0){
+//             if (operators[operators.length-1] == '+'){
+//                 operators.pop();
+//                 solution += numbers.pop();
+//             } else if (operators[operators.length-1] == '-'){
+//                 operators.pop();
+//                 solution -= numbers.pop();
+//             } else if (operators[operators.length-1] == '*'){
+//                 operators.pop();
+//                 solution *= numbers.pop();
+//             } else if (operators[operators.length-1] == '/'){
+//                 operators.pop();
+//                 solution /= numbers.pop();
+//             }
+//         }
+//         document.getElementById('display').innerHTML = solution;
+//     } else {
+//         document.getElementById('display').innerHTML = "ERROR";
+//     }
+// }
