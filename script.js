@@ -45,7 +45,7 @@ function operate(){
     }
 }
 
-//setting onclicks for calculator buttons
+//onclicks for calculator buttons
 document.getElementById("zero").addEventListener('click', function(e){ populate('0'); });
 document.getElementById("one").addEventListener('click', function(e){ populate('1'); });
 document.getElementById("two").addEventListener('click', function(e){ populate('2'); });
