@@ -10,6 +10,7 @@
 - Git and GitHub
 
 ## Links:
+- [LIVE DEMO](https://brandonngithub.github.io/calculator/)
 - [Link to the Assignment](https://www.theodinproject.com/lessons/foundations-recipes)
 
 ## Screenshots:
