@@ -1,10 +1,10 @@
 ## ~ calculator ~
-- [LIVE DEMO](https://brandonngithub.github.io/calculator/)
-<p>Built using HTML, CSS, and JavaScript. All basic operations (add, subtract, multiply, divide, modulo) are supported. Operations performed follow BEDMAS precedence. Also comes with options to backspace and clear input.</p>
+[LIVE DEMO](https://brandonngithub.github.io/calculator/)
+<p>Built using HTML5, CSS3, and JavaScript. All basic operations (add, subtract, multiply, divide, modulo) are supported. Operations performed follow BEDMAS precedence. Also comes with options to backspace and clear input.</p>
 
 ## Tech Used:
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - UNIX terminal
 - Git and GitHub
