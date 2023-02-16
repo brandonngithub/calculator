@@ -1,5 +1,5 @@
 ## ~ calculator ~
-<p>The fifth project from TheOdinProject (Foundations Course).</p>
+- [LIVE DEMO](https://brandonngithub.github.io/calculator/)
 <p>Built using HTML, CSS, and JavaScript. All basic operations (add, subtract, multiply, divide, modulo) are supported. Operations performed follow BEDMAS precedence. Also comes with options to backspace and clear input.</p>
 
 ## Tech Used:
@@ -8,10 +8,6 @@
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - UNIX terminal
 - Git and GitHub
-
-## Links:
-- [LIVE DEMO](https://brandonngithub.github.io/calculator/)
-- [Link to the Assignment](https://www.theodinproject.com/lessons/foundations-recipes)
 
 ## Screenshots:
 <img width="1440" alt="1" src="https://user-images.githubusercontent.com/91623674/203178348-0c9408eb-3dc9-4894-bd71-2176bfba92a7.png">
