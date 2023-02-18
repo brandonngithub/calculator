@@ -1,5 +1,5 @@
-## ~ calculator ~
-[LIVE DEMO](https://brandonngithub.github.io/calculator/)
+## ~ web-calc ~
+[LIVE DEMO](https://brandonngithub.github.io/web-calc/)
 <p>Built using HTML, CSS, and JavaScript. All basic operations (add, subtract, multiply, divide, modulo) are supported. Operations performed follow BEDMAS precedence. Also comes with options to backspace and clear input.</p>
 
 ## Tech Used:
